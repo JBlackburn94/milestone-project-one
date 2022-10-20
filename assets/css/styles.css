@@ -1,9 +1,106 @@
 /* ---------- Font Styles */
-
-
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Code+Pro&family=Ubuntu:wght@300;400;500;700&display=swap');
 
 /* ---------- Main Styles */
 
-/* ---------------- Navbar */
+body {
+    background-color: rgb(0, 24, 60);
+    height: 1000px;
+    padding-top: 40px;
+}
 
+.green-text {
+    color: rgb(38, 255, 0);
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+}
+
+.pink-text {
+    color: rgb(255, 0, 212);
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+}
+
+/* ---------- Image Styles */
+
+.hero-image {
+
+}
+
+/* ---------- Nav Styles */
+
+.navbar-bg-color {
+    background-color: rgb(0, 24, 60);
+}
+
+.navbar-font-style {
+    font-family: "Source Code Pro", sans-serif;
+    text-transform: lowercase;
+}
+
+.navbar {
+    z-index: 1;
+}
+
+.brand-heading {
+    color: rgb(13, 255, 0);
+}
+
+/* ---------- Home Styles */
+
+.main-heading {
+    padding-left: 40px;
+    font-family: "Source Code Pro", sans-serif;
+    color: #fff;
+    text-transform: lowercase;
+}
+
+.code-text {
+    color: #fff;
+    font-family: "Source Code Pro", sans-serif;
+    text-transform: lowercase;
+}
+
+
+
+
+
+/* ---------- Footer Styles */
+
+.footer-bg-color {
+    background-color: rgb(49, 49, 49);
+}
+
+.footer-headings {
+    color: #fff;
+    font-family: "Source Code Pro", sans-serif;
+    text-transform: lowercase;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    text-align: center;
+    
+}
+
+.footer-lists {
+    text-transform: lowercase;
+    text-align: center;
+    list-style: none;
+}
+
+.footer-lists a {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Source Code Pro", sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.footer-main {
+    margin-bottom: 1vh;
+}
+
+.bottom-heading {
+    color: #fff;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+}
