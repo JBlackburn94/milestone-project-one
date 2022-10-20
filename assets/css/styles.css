@@ -4,33 +4,26 @@
 /* ---------- Main Styles */
 
 body {
-    background-color: rgb(0, 24, 60);
+    background-color: rgb(0, 16, 41);
     height: 1000px;
     padding-top: 40px;
 }
 
 .green-text {
-    color: rgb(38, 255, 0);
+    color: rgb(144, 0, 255);
     font-family: "Bebas Neue", sans-serif;
     font-size: 40px;
 }
 
-.pink-text {
-    color: rgb(255, 0, 212);
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 40px;
-}
 
 /* ---------- Image Styles */
 
-.hero-image {
-
-}
+.hero-image {}
 
 /* ---------- Nav Styles */
 
 .navbar-bg-color {
-    background-color: rgb(0, 24, 60);
+    background-color: rgb(0, 16, 41);
 }
 
 .navbar-font-style {
@@ -43,7 +36,7 @@ body {
 }
 
 .brand-heading {
-    color: rgb(13, 255, 0);
+    color: rgb(0, 208, 255);
 }
 
 /* ---------- Home Styles */
@@ -60,6 +53,44 @@ body {
     font-family: "Source Code Pro", sans-serif;
     text-transform: lowercase;
 }
+
+.main-section {
+    margin-top: 50px;
+    color: #fff;
+    text-align: center;
+}
+
+.main-heading {
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 4px;
+    padding-left: 0;
+    text-decoration: underline;
+}
+
+.secondary-heading {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.headings {
+    font-family: "Bebas Neue", sans-serif;
+    color: rgb(0, 208, 255)
+}
+
+.list-group-bg {
+    background-color: rgb(0, 16, 41);
+    color: white;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 2px;
+}
+
+.sub-headings {
+    margin: 40px;
+    font-family: "Bebas Neue", sans-serif;
+    color: rgb(0, 208, 255);
+    font-size: 38px;
+}
+
+
 
 
 
@@ -78,7 +109,7 @@ body {
     margin-top: 10px;
     margin-bottom: -10px;
     text-align: center;
-    
+
 }
 
 .footer-lists {
@@ -104,3 +135,17 @@ body {
     text-align: center;
     font-family: "Bebas Neue", sans-serif;
 }
+
+/* ---------- hover.css Styles */
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+  }
