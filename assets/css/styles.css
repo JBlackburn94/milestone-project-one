@@ -93,6 +93,23 @@ li {
 .main-section-text {
     font-family: "Ubuntu", sans-serif;
     font-weight: 300;
+    text-align: center;
+}
+
+.skills-list {
+    background-color: #088DA5;
+    color: #fff;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    padding-top: 20px;
+}
+
+.text-content {
+    text-align: center;
+}
+
+.skills-title {
+    margin-top: 40px;
 }
 
 
