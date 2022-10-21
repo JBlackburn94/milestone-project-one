@@ -77,6 +77,23 @@ section {
     margin-bottom: -250px;
 }
 
+li {
+    list-style: none;
+}
+
+.main-heading {
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 5px;
+}
+
+.sub-heading {
+    font-family: "Bebas Neue", sans-serif; 
+}
+
+.main-section-text {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 300;
+}
 
 
 
@@ -143,3 +160,14 @@ section {
     -webkit-transition-property: transform;
     transition-property: transform;
   }
+
+
+
+/* ---------- Media Query Styles */
+
+
+@media (max-width: 480px) {
+    .layer1 {
+        margin-bottom: -20px;
+    }
+}
