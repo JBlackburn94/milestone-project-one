@@ -4,26 +4,37 @@
 /* ---------- Main Styles */
 
 body {
-    background-color: rgb(0, 16, 41);
+    background-color: #001220;
     height: 1000px;
     padding-top: 40px;
-}
-
-.green-text {
-    color: rgb(144, 0, 255);
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 40px;
+    color: #fff;
 }
 
 
-/* ---------- Image Styles */
 
-.hero-image {}
+
+/* ---------- Color Styles */
+
+.purple {
+    background: #6A73B6;
+}
+
+.green {
+    background: #ACEACE;
+}
+
+.blue {
+    background: #088DA5;
+}
+
+.yellow {
+    background: #ffcc5c;
+}
 
 /* ---------- Nav Styles */
 
 .navbar-bg-color {
-    background-color: rgb(0, 16, 41);
+    background-color: rgb(49, 49, 49);
 }
 
 .navbar-font-style {
@@ -41,54 +52,37 @@ body {
 
 /* ---------- Home Styles */
 
-.main-heading {
-    padding-left: 40px;
-    font-family: "Source Code Pro", sans-serif;
-    color: #fff;
-    text-transform: lowercase;
+.spacer {
+    aspect-ratio: 900/300;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
-.code-text {
-    color: #fff;
-    font-family: "Source Code Pro", sans-serif;
-    text-transform: lowercase;
+section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 400px;
+    padding: 100px 20vw;
 }
 
-.main-section {
-    margin-top: 50px;
-    color: #fff;
-    text-align: center;
+.main-content {
+    padding: 0;
 }
 
-.main-heading {
-    font-family: "Bebas Neue", sans-serif;
-    letter-spacing: 4px;
-    padding-left: 0;
-    text-decoration: underline;
+.layer1 {
+    margin-bottom: -250px;
 }
 
-.secondary-heading {
-    font-family: "Bebas Neue", sans-serif;
-}
 
-.headings {
-    font-family: "Bebas Neue", sans-serif;
-    color: rgb(0, 208, 255)
-}
 
-.list-group-bg {
-    background-color: rgb(0, 16, 41);
-    color: white;
-    font-family: "Bebas Neue", sans-serif;
-    letter-spacing: 2px;
-}
 
-.sub-headings {
-    margin: 40px;
-    font-family: "Bebas Neue", sans-serif;
-    color: rgb(0, 208, 255);
-    font-size: 38px;
-}
+
+
+
 
 
 
