@@ -31,6 +31,10 @@ body {
     background: #ffcc5c;
 }
 
+.page-under-construction {
+    color: white;
+}
+
 /* ---------- Nav Styles */
 
 .navbar-bg-color {
