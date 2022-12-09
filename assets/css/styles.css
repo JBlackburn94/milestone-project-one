@@ -10,9 +10,6 @@ body {
     color: rgb(0, 0, 0);
 }
 
-
-
-
 /* ---------- Color Styles */
 
 .purple {
@@ -116,18 +113,6 @@ li {
     margin-top: 40px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* ---------- Footer Styles */
 
 .footer-bg-color {
@@ -181,8 +166,6 @@ li {
     -webkit-transition-property: transform;
     transition-property: transform;
   }
-
-
 
 /* ---------- Media Query Styles */
 
