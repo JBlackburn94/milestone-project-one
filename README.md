@@ -2,8 +2,6 @@
 
 This site is to be used by potential recruiters/companys to explore the skills and some background information of Jason Blackburn. Following this, there is also a contact form at the bottom, whilst it is static at the moment, when fully functional, this will allow users to contact the developer directly from the site itself. There is also an attached PDF which is linked to the 'Download CV' button, where recruiters/hiring managers can view and download a copy of the CV.
 
-PLEASE NOTE - There is an error showing. The error claims that some external font/icon files have not been loaded. But having investigated this with my mentor, we can clearly see all items have loaded and this error is incorrect. 
-
 # Table of Contents
 1. [Business](#business)
 2. [Colour Scheme](#color-scheme)
@@ -61,26 +59,7 @@ I have used two fonts for the main content of the page. Bebas Neue for titles an
 
 I have made wire frames for desktop, mobile and tablet view. These can be seen below. I have utlised a hamburger style menu for the smaller window sizes on mobile and tablet. This is to keep things looking clean and not too busy. I have also used a mixture of media queries and boostrap to make the page fully responsive. 
 
-![image](https://user-images.githubusercontent.com/113805105/207846693-0fcadbe8-7ba5-4278-a3c4-8cff6e89ff4e.png)
-
-Desktop View
-
-![image](https://user-images.githubusercontent.com/113805105/207847050-6d2b7149-72ee-4a2f-bdfa-e0463465e2db.png)
-
-Mobile View 1
-
-![image](https://user-images.githubusercontent.com/113805105/207847163-72fdb54b-ab3b-474d-8885-7c41bd613726.png)
-
-Mobile View 2
-
-![image](https://user-images.githubusercontent.com/113805105/207847252-c3c02e70-8f2c-4676-98a6-bd674631df94.png)
-
-Tablet View 1
-
-![image](https://user-images.githubusercontent.com/113805105/207847365-3c301e9d-a6fd-4ed1-9145-21ec479f8c75.png)
-
-Tablet View 2
-
+![image](https://user-images.githubusercontent.com/113805105/207986238-b37121d9-58a4-49f6-bdc3-fb450145e280.png)
 # Technologies Used <a name="technologies-used"></a>
 
 During the build for this page I used:
@@ -111,6 +90,8 @@ Use of GitPod as the main IDE for this project.
 
 # Testing <a name="testing"></a>
 
+“PLEASE NOTE - There is an error showing. The error claims that some external font/icon files have not been loaded. But having investigated this with my mentor, we can clearly see all items have loaded and this error is incorrect.”
+
 This project was tested using:
 
 [W3 HTML Validator](https://validator.w3.org/)
@@ -133,6 +114,8 @@ Google Chrome Lighthouse was used to score the performance and accesibility of t
 
 # Deployment <a name="deployment"></a>
 
+GitPod -> GitHub -> GitHub Pages
+
 ## GitHub
 
 Create GitHub Repository using the Code Institute Full Template
@@ -140,6 +123,10 @@ Create GitHub Repository using the Code Institute Full Template
 ## GitPod 
 
 Pushed all content from GitPod to GitHub using Git commands (git add, git commit, git push etc).
+
+## GitHub Pages
+
+Completed site deployed to GitHub Pages.
 
 # Credits <a name="credits"></a>
 
